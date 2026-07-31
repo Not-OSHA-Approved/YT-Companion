@@ -59,6 +59,22 @@ Information is layered:
 
 The goal is usability for non-technical creators without oversimplifying analytics for advanced users.
 
+## Deployment and Access Model
+
+YT-Companion runs on infrastructure controlled by the owner. The reference installation will run under Docker on Proxmox and be reachable at `https://companion.farwellonline.com` through Cloudflare Tunnel.
+
+Access responsibilities are deliberately separated:
+
+- Cloudflare Access controls who may open the externally reachable dashboard.
+- Google OAuth grants read-only access to YouTube channel data.
+- YT-Companion provides the shared creator portfolio and does not require separate household accounts in v0.1.
+
+No inbound router port forwarding should be required for the reference deployment. LAN-only installations must remain supported.
+
+The public hostname is deployment configuration, not an application constant. Reusable examples must use neutral domains such as `companion.example.com`.
+
+See [DEPLOYMENT-ACCESS.md](DEPLOYMENT-ACCESS.md) for the complete initial decision.
+
 ## v0.1 Runtime Direction
 
 - PowerShell 7+ service layer
