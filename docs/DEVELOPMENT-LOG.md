@@ -85,3 +85,61 @@ Documented the reference topology, configuration concepts, security requirements
 ### Result
 
 Feature 003 completed. No application code or live Cloudflare configuration was introduced.
+
+## 2026-07-31 — Feature 004: Portfolio Overview Wireframe
+
+### Design
+
+Defined the Portfolio Overview as the first YT-Companion screen and gave it one primary question:
+
+> **Which channel deserves my attention today?**
+
+Adopted the one-screen desktop rule, row-based channel presentation, prioritized channel ordering, concise Producer observations, and visible snapshot health.
+
+### Explain
+
+Rows were selected instead of cards because they provide better scanability, density, sorting potential, and support for portfolios larger than the reference household installation.
+
+The initial desktop view shows up to six non-archived priority channels. Larger portfolios use a separate full channel directory rather than forcing the landing page to scroll.
+
+### Implementation
+
+Added:
+
+- `docs/WIREFRAMES/01-Portfolio.md`
+- `docs/WIREFRAMES/01-Portfolio.svg`
+
+The specification defines desktop and mobile behavior, summary metrics, channel states, interactions, loading and error states, accessibility expectations, performance targets, scaling rules, and acceptance criteria.
+
+### Test
+
+Reviewed the wireframe dimensions and information hierarchy against the documented 1920×1080 reference viewport and the 1366×768 minimum usable desktop target.
+
+Verified that the specification handles zero channels, partial channel failures, total load failure, more than six channels, archived channels, stale cached data, and unavailable analytics without inventing status information.
+
+### Fix
+
+Removed the earlier assumption that every connected channel must remain visible simultaneously on the first screen. The corrected design keeps the six highest-priority channels visible and routes larger portfolios to a dedicated directory while preserving the no-page-scroll requirement.
+
+### Regression Test
+
+Confirmed that Feature 004 does not change the read-only v0.1 boundary, does not reintroduce household application accounts, and does not conflict with the Cloudflare access model.
+
+### Validation
+
+Confirmed that:
+
+- The primary question is explicit.
+- The initial desktop view avoids page-level vertical scrolling.
+- Every visible section supports a creator decision.
+- Producer observations require an evidence path.
+- Channel status cannot be guessed when data is insufficient.
+- No visual feature exists solely for decoration.
+
+### Documentation
+
+Updated project status and recorded the completed UX decisions, edge states, and validation results.
+
+### Result
+
+Feature 004 completed. No application code was introduced.
