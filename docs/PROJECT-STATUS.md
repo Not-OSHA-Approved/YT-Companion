@@ -6,11 +6,11 @@ Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 007 — Video Workspace Wireframe is complete.
+None. Feature 008 — Producer Wireframe is complete.
 
 ## Status
 
-Repository foundation, creator portfolio model, deployment access model, and the first four primary UX screens are validated.
+Repository foundation, creator portfolio model, deployment access model, and the first five primary UX screens are validated.
 
 ## Completed
 
@@ -33,7 +33,8 @@ Repository foundation, creator portfolio model, deployment access model, and the
 - Channel Dashboard metrics, Producer summary, recent uploads, trends, and failure states documented
 - Videos screen priority model, fair-comparison rules, filters, sorting, responsive states, and failure handling documented
 - Video Workspace case-file model, timeline, evidence contract, history preservation, and local notes documented
-- Grayscale visual wireframes added for Portfolio, Channel Dashboard, Videos, and Video Workspace
+- Producer finding states, confidence boundaries, evidence contract, audit history, and optional LLM boundary documented
+- Grayscale visual wireframes added for Portfolio, Channel Dashboard, Videos, Video Workspace, and Producer
 
 ## Product Model
 
@@ -75,14 +76,20 @@ Answers:
 
 > **Why is this video performing the way it is?**
 
-The initial view behaves as a compact case file containing video identity, age-appropriate performance context, one evidence-backed Producer finding, a timeline preview, an evidence snapshot, metadata-history paths, and collection health.
+### Producer
 
-The Evidence Engine owns deterministic calculations. Producer may translate approved findings into readable language but cannot invent calculations, comparisons, confidence, or causation.
+Answers:
+
+> **What patterns am I missing, and what deserves investigation?**
+
+Producer displays only versioned findings approved by the Evidence Engine. Each finding includes its metric, comparison population, period, sample, calculation, effect size, confidence, limitations, supporting records, and evidence version.
+
+Producer remains fully functional without an LLM. An optional language provider may improve wording but cannot create findings, change evidence, remove limitations, alter confidence, or claim causation.
 
 ## Next Feature
 
-Feature 008 will be selected before further design or application implementation begins. No Feature 008 work has begun.
+Feature 009 will be selected before further design or application implementation begins. No Feature 009 work has begun.
 
 ## v0.1 Boundary
 
-v0.1 remains strictly read-only with respect to YouTube. Local creator notes may be stored, but no upload, edit, thumbnail change, scheduling, privacy-state change, or other YouTube mutation capability is permitted.
+v0.1 remains strictly read-only with respect to YouTube. Local creator notes, finding dismissal, and usefulness feedback may be stored, but no upload, edit, thumbnail change, scheduling, privacy-state change, or other YouTube mutation capability is permitted.
