@@ -6,11 +6,11 @@ Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 004 — Portfolio Overview Wireframe is complete.
+None. Feature 005 — Channel Dashboard Wireframe is complete.
 
 ## Status
 
-Repository foundation, creator portfolio model, deployment access model, and first-screen UX specification are validated.
+Repository foundation, creator portfolio model, deployment access model, Portfolio Overview, and Channel Dashboard UX specifications are validated.
 
 ## Completed
 
@@ -23,7 +23,7 @@ Repository foundation, creator portfolio model, deployment access model, and fir
 - Creator portfolio and multi-channel model documented
 - Unnecessary v0.1 household user accounts removed from scope
 - Creator cockpit interface direction documented
-- Progressive disclosure requirement documented: approachable summaries with expandable technical detail
+- Progressive disclosure requirement documented
 - Creator Insights evidence requirements documented
 - Reference deployment address selected: `companion.farwellonline.com`
 - Cloudflare Tunnel and Cloudflare Access responsibilities documented
@@ -31,8 +31,13 @@ Repository foundation, creator portfolio model, deployment access model, and fir
 - LAN-only deployment retained as a supported option
 - Portfolio Overview primary question and one-screen desktop rule documented
 - Row-based priority layout selected for channel scalability
-- Loading, empty, partial-data, error, mobile, accessibility, and performance expectations defined
-- Grayscale visual wireframe added for the Portfolio Overview
+- Portfolio loading, empty, partial-data, error, mobile, accessibility, and performance expectations defined
+- Grayscale Portfolio Overview wireframe added
+- Channel Dashboard primary question and information hierarchy documented
+- Today at a Glance metric contract and comparison labeling defined
+- Producer, Top Movers, Recent Uploads, compact trends, and collection-health behavior defined
+- Pre-launch, dormant, loading, partial-failure, total-failure, revoked-authorization, and insufficient-history states defined
+- Grayscale Channel Dashboard wireframe added
 
 ## Product Model
 
@@ -50,15 +55,27 @@ No live Cloudflare resources or application containers have been created yet.
 
 ## Interface Direction
 
-The Portfolio Overview answers:
+### Portfolio Overview
+
+Answers:
 
 > **Which channel deserves my attention today?**
 
-Its initial desktop view must fit without page-level vertical scrolling. It displays up to six prioritized non-archived channels, one evidence-linked Producer observation, and collection health. Additional channels open in a separate full channel directory.
+Its initial desktop view fits without page-level vertical scrolling and displays prioritized channels, one evidence-linked Producer observation, and collection health.
+
+### Channel Dashboard
+
+Answers:
+
+> **What should I know about this channel today?**
+
+Its initial desktop view fits without page-level vertical scrolling and presents channel identity, six core metrics, one primary Producer observation, no more than two Top Movers, three recent uploads, compact historical direction, and collection health.
+
+Every metric comparison names its period. Missing permission or unavailable data is labeled and is never replaced with zero or an estimate.
 
 ## Next Feature
 
-Feature 005 will be selected before application implementation begins. No Feature 005 work has begun.
+Feature 006 will be selected before application implementation begins. No Feature 006 work has begun.
 
 ## v0.1 Boundary
 
