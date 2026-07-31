@@ -143,3 +143,69 @@ Updated project status and recorded the completed UX decisions, edge states, and
 ### Result
 
 Feature 004 completed. No application code was introduced.
+
+## 2026-07-31 — Feature 005: Channel Dashboard Wireframe
+
+### Design
+
+Defined the Channel Dashboard around one primary question:
+
+> **What should I know about this channel today?**
+
+The initial desktop view contains channel identity, six core metrics, one primary Producer observation, no more than two Top Movers, three recent uploads, compact historical direction, and collection health.
+
+### Explain
+
+The dashboard deliberately separates summary from analysis. It provides enough context to decide where to investigate while routing exact calculations, full charts, and detailed filters to evidence, Analytics, and future Video Workspace screens.
+
+The default comparison period is 28 days, and every comparison-capable section must use the selected period consistently or disclose that it cannot.
+
+### Implementation
+
+Added:
+
+- `docs/WIREFRAMES/02-Channel-Dashboard.md`
+- `docs/WIREFRAMES/02-Channel-Dashboard.svg`
+
+The specification defines metric contracts, date-range behavior, Producer evidence, Top Movers thresholds, recent uploads, compact trends, collection health, responsive behavior, accessibility, performance targets, data requirements, edge states, and acceptance criteria.
+
+### Test
+
+Reviewed the 1600×900 visual wireframe and the written specification against the 1920×1080 one-screen reference and 1366×768 minimum desktop target.
+
+Verified that all core sections fit in the initial layout and that deeper data is reached through explicit navigation rather than page-level scrolling.
+
+### Fix
+
+Rejected several misleading fallback behaviors during design:
+
+- Unavailable revenue is labeled rather than shown as zero.
+- Missing historical baselines use `Collecting baseline` rather than unstable percentages.
+- Revoked authorization preserves historical read-only access instead of blanking the dashboard.
+- Pre-launch channels use a purpose-built state rather than empty metric cards.
+- Dormancy is reported as a fact, not turned into unsupported publishing advice.
+
+### Regression Test
+
+Confirmed that Feature 005 preserves the creator portfolio model, Cloudflare access boundary, independent Google authorization model, one-screen desktop rule, evidence requirement, and strict read-only v0.1 boundary.
+
+### Validation
+
+Confirmed that:
+
+- The primary question is explicit.
+- Every metric names its comparison context.
+- Exactly one primary Producer observation appears.
+- Every insight and movement has an evidence path.
+- Missing data is never estimated or silently replaced.
+- Pre-launch, dormant, loading, partial-failure, total-failure, revoked-authorization, and insufficient-history states are defined.
+- Mobile readability takes priority over forcing desktop density onto a narrow screen.
+- No element exists solely for decoration.
+
+### Documentation
+
+Updated project status and recorded the completed Channel Dashboard UX contract and validation results.
+
+### Result
+
+Feature 005 completed. No application code was introduced.
