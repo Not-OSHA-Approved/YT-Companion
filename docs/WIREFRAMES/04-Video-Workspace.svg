@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">YT-Companion Video Workspace wireframe</title>
+  <desc id="desc">Grayscale case-file wireframe showing video identity, performance metrics, Producer finding, case summary, timeline, evidence, and workspace tabs.</desc>
+  <rect width="1600" height="900" fill="#f4f4f4"/>
+  <rect x="35" y="25" width="1530" height="850" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="35" y="25" width="1530" height="60" rx="8" fill="#222"/>
+  <text x="65" y="63" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">YT-Companion</text>
+  <text x="255" y="63" font-family="Arial, sans-serif" font-size="15" fill="#ddd">Portfolio › Channel › Videos › I Will Never Be Too Tired</text>
+  <text x="1390" y="63" font-family="Arial, sans-serif" font-size="15" fill="#ddd">Sync ✓</text>
+  <text x="1480" y="63" font-family="Arial, sans-serif" font-size="15" fill="#ddd">Settings</text>
+
+  <rect x="65" y="105" width="180" height="100" fill="#ddd" stroke="#888"/>
+  <text x="114" y="160" font-family="Arial, sans-serif" font-size="16" fill="#555">thumbnail</text>
+  <text x="270" y="130" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#222">I Will Never Be Too Tired</text>
+  <text x="270" y="160" font-family="Arial, sans-serif" font-size="16" fill="#555">Published yesterday · Public · 18:42 · Standard video</text>
+  <text x="270" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#333">Healthy early performance · Updated 8 minutes ago</text>
+
+  <rect x="65" y="225" width="1470" height="112" rx="5" fill="#eee" stroke="#aaa"/>
+  <text x="85" y="250" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#222">PERFORMANCE</text>
+  <g font-family="Arial, sans-serif" fill="#222">
+    <text x="90" y="282" font-size="14">Views</text><text x="90" y="310" font-size="22" font-weight="700">482</text>
+    <text x="285" y="282" font-size="14">CTR</text><text x="285" y="310" font-size="22" font-weight="700">6.1%</text>
+    <text x="465" y="282" font-size="14">Watch time</text><text x="465" y="310" font-size="22" font-weight="700">66.2 h</text>
+    <text x="670" y="282" font-size="14">Avg duration</text><text x="670" y="310" font-size="22" font-weight="700">8:14</text>
+    <text x="885" y="282" font-size="14">Comments</text><text x="885" y="310" font-size="22" font-weight="700">37</text>
+    <text x="1065" y="282" font-size="14">Subs gained</text><text x="1065" y="310" font-size="22" font-weight="700">+9</text>
+    <text x="1270" y="282" font-size="14">Revenue*</text><text x="1270" y="310" font-size="22" font-weight="700">$11.42</text>
+  </g>
+
+  <rect x="65" y="355" width="930" height="150" rx="5" fill="#fff" stroke="#888"/>
+  <text x="85" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#222">PRODUCER FINDING</text>
+  <text x="85" y="425" font-family="Arial, sans-serif" font-size="18" fill="#333">This video is outperforming recent uploads because viewers are watching</text>
+  <text x="85" y="452" font-family="Arial, sans-serif" font-size="18" fill="#333">longer after clicking. CTR is near normal.</text>
+  <text x="805" y="485" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">Show evidence ›</text>
+
+  <rect x="1015" y="355" width="520" height="150" rx="5" fill="#eee" stroke="#888"/>
+  <text x="1035" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#222">CASE SUMMARY</text>
+  <text x="1035" y="418" font-family="Arial, sans-serif" font-size="16" fill="#333">Current title: original</text>
+  <text x="1035" y="447" font-family="Arial, sans-serif" font-size="16" fill="#333">Thumbnail: version 1</text>
+  <text x="1035" y="476" font-family="Arial, sans-serif" font-size="16" fill="#333">Traffic shift: Facebook ↑ · Notes: 1</text>
+
+  <rect x="65" y="525" width="930" height="220" rx="5" fill="#fff" stroke="#888"/>
+  <text x="85" y="555" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#222">TIMELINE</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#333">
+    <text x="90" y="592">09:00</text><text x="175" y="592">Published</text>
+    <text x="90" y="626">09:47</text><text x="175" y="626">First comment</text>
+    <text x="90" y="660">12:10</text><text x="175" y="660">External traffic increased</text>
+    <text x="90" y="694">16:00</text><text x="175" y="694">Retention exceeded age-matched baseline</text>
+    <text x="90" y="728">20:32</text><text x="175" y="728">Reached 400 views</text>
+  </g>
+
+  <rect x="1015" y="525" width="520" height="220" rx="5" fill="#eee" stroke="#888"/>
+  <text x="1035" y="555" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#222">EVIDENCE SNAPSHOT</text>
+  <text x="1035" y="590" font-family="Arial, sans-serif" font-size="16" fill="#333">Compared with previous 3 standard</text>
+  <text x="1035" y="616" font-family="Arial, sans-serif" font-size="16" fill="#333">uploads at the same age</text>
+  <text x="1035" y="658" font-family="Arial, sans-serif" font-size="16" fill="#333">Avg duration: +8.9%</text>
+  <text x="1035" y="690" font-family="Arial, sans-serif" font-size="16" fill="#333">CTR: -0.2 percentage point</text>
+  <text x="1035" y="722" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#333">Confidence: Moderate</text>
+
+  <rect x="65" y="765" width="1470" height="48" rx="4" fill="#ddd" stroke="#888"/>
+  <text x="90" y="795" font-family="Arial, sans-serif" font-size="15" fill="#222">Overview   Performance   Timeline   Titles   Thumbnails   Notes   Related content</text>
+  <text x="65" y="845" font-family="Arial, sans-serif" font-size="14" fill="#555">Snapshot healthy · Data through 1:00 PM · Revenue available under current authorization</text>
+</svg>
