@@ -1,0 +1,41 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+config/local.*
+
+# OAuth and tokens
+*client_secret*.json
+*credentials*.json
+*tokens*.json
+
+# Databases and runtime data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/
+backups/
+logs/
+
+# PowerShell
+*.ps1xml
+*.psc1
+*.pssc
+
+# Test and coverage output
+TestResults/
+coverage/
+*.trx
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Containers
+.env.docker
