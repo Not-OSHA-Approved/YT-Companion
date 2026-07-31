@@ -6,11 +6,11 @@ Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 006 — Videos Screen Wireframe is complete.
+None. Feature 007 — Video Workspace Wireframe is complete.
 
 ## Status
 
-Repository foundation, creator portfolio model, deployment access model, and the first three primary UX screens are validated.
+Repository foundation, creator portfolio model, deployment access model, and the first four primary UX screens are validated.
 
 ## Completed
 
@@ -23,17 +23,17 @@ Repository foundation, creator portfolio model, deployment access model, and the
 - Creator portfolio and multi-channel model documented
 - Unnecessary v0.1 household user accounts removed from scope
 - Creator cockpit interface direction documented
-- Progressive disclosure requirement documented: approachable summaries with expandable technical detail
+- Progressive disclosure requirement documented
 - Creator Insights evidence requirements documented
 - Reference deployment address selected: `companion.farwellonline.com`
 - Cloudflare Tunnel and Cloudflare Access responsibilities documented
 - Google OAuth separated from dashboard-access control
 - LAN-only deployment retained as a supported option
 - Portfolio Overview primary question and one-screen desktop rule documented
-- Row-based priority layout selected for channel scalability
 - Channel Dashboard metrics, Producer summary, recent uploads, trends, and failure states documented
 - Videos screen priority model, fair-comparison rules, filters, sorting, responsive states, and failure handling documented
-- Grayscale visual wireframes added for Portfolio, Channel Dashboard, and Videos
+- Video Workspace case-file model, timeline, evidence contract, history preservation, and local notes documented
+- Grayscale visual wireframes added for Portfolio, Channel Dashboard, Videos, and Video Workspace
 
 ## Product Model
 
@@ -57,15 +57,11 @@ Answers:
 
 > **Which channel deserves my attention today?**
 
-Its initial desktop view fits without page-level vertical scrolling and displays up to six prioritized non-archived channels.
-
 ### Channel Dashboard
 
 Answers:
 
 > **What should I know about this channel today?**
-
-It combines core metrics, one primary Producer observation, Top Movers, recent uploads, compact trends, and data-health context.
 
 ### Videos
 
@@ -73,12 +69,20 @@ Answers:
 
 > **Which videos deserve my attention right now?**
 
-Its default view shows up to five priority videos with age-matched or explicitly contextualized comparisons. It does not use unexplained AI scores or compare unlike formats through a shared baseline.
+### Video Workspace
+
+Answers:
+
+> **Why is this video performing the way it is?**
+
+The initial view behaves as a compact case file containing video identity, age-appropriate performance context, one evidence-backed Producer finding, a timeline preview, an evidence snapshot, metadata-history paths, and collection health.
+
+The Evidence Engine owns deterministic calculations. Producer may translate approved findings into readable language but cannot invent calculations, comparisons, confidence, or causation.
 
 ## Next Feature
 
-Feature 007 will be selected before further design or application implementation begins. No Feature 007 work has begun.
+Feature 008 will be selected before further design or application implementation begins. No Feature 008 work has begun.
 
 ## v0.1 Boundary
 
-v0.1 remains strictly read-only. No upload, edit, thumbnail-change, scheduling, privacy-state change, or other YouTube mutation capability is permitted.
+v0.1 remains strictly read-only with respect to YouTube. Local creator notes may be stored, but no upload, edit, thumbnail change, scheduling, privacy-state change, or other YouTube mutation capability is permitted.
