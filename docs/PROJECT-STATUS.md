@@ -6,11 +6,11 @@ Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 003 — Deployment and Access Model is complete.
+None. Feature 004 — Portfolio Overview Wireframe is complete.
 
 ## Status
 
-Repository foundation, creator portfolio model, and deployment access model validated.
+Repository foundation, creator portfolio model, deployment access model, and first-screen UX specification are validated.
 
 ## Completed
 
@@ -29,6 +29,10 @@ Repository foundation, creator portfolio model, and deployment access model vali
 - Cloudflare Tunnel and Cloudflare Access responsibilities documented
 - Google OAuth separated from dashboard-access control
 - LAN-only deployment retained as a supported option
+- Portfolio Overview primary question and one-screen desktop rule documented
+- Row-based priority layout selected for channel scalability
+- Loading, empty, partial-data, error, mobile, accessibility, and performance expectations defined
+- Grayscale visual wireframe added for the Portfolio Overview
 
 ## Product Model
 
@@ -44,9 +48,17 @@ Cloudflare Access protects the externally reachable dashboard. Google OAuth is u
 
 No live Cloudflare resources or application containers have been created yet.
 
+## Interface Direction
+
+The Portfolio Overview answers:
+
+> **Which channel deserves my attention today?**
+
+Its initial desktop view must fit without page-level vertical scrolling. It displays up to six prioritized non-archived channels, one evidence-linked Producer observation, and collection health. Additional channels open in a separate full channel directory.
+
 ## Next Feature
 
-Feature 004 will be selected before application implementation begins. No Feature 004 work has begun.
+Feature 005 will be selected before application implementation begins. No Feature 005 work has begun.
 
 ## v0.1 Boundary
 
