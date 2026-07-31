@@ -1,10 +1,10 @@
 # YT-Companion
 
-A self-hosted analytics and insight platform for YouTube creators.
+A self-hosted creator cockpit for YouTube analytics, historical tracking, and evidence-based insights.
 
-YT-Companion is designed to complement YouTube Studio with long-term historical tracking, creator-focused observations, title and thumbnail analysis, and evidence-based AI insights.
+YT-Companion complements YouTube Studio. It is designed to answer: **What should I know today?**
 
-> **Project status:** Foundation stage. No functional release is available yet.
+> **Project status:** Foundation and product-model stage. No functional release is available yet.
 
 ## Core Principles
 
@@ -14,29 +14,48 @@ YT-Companion is designed to complement YouTube Studio with long-term historical 
 - Historical analytics are first-class data
 - Every feature must answer a question creators actually ask
 - AI insights must be traceable to collected data
-- Multiple users and multiple channels must remain isolated and independently authorized
+- Multiple channels must remain independently authorized and analytically isolated
+- The interface must be approachable without hiding meaningful detail
+
+## Creator Portfolio
+
+A YT-Companion installation contains a creator portfolio with one or more connected YouTube channels. The user can switch between an individual channel dashboard and a portfolio overview.
+
+v0.1 does not require separate household user accounts, roles, or permissions. Authentication for remote or multi-user installations may be added later as a separate feature.
+
+Each connected channel retains its own:
+
+- Google OAuth authorization
+- Analytics history
+- videos and thumbnails
+- Creator Insights
+- channel status, such as active, pre-launch, dormant, or archived
+
+## Dashboard Direction
+
+The landing page should not be a wall of numbers. It should lead with:
+
+- Today at a Glance
+- Creator Insights
+- Top Movers
+- Recent Uploads
+- Historical Trends
+
+Detailed analytics remain available through progressive disclosure so casual users can understand the dashboard quickly while advanced users can inspect calculations, comparisons, and source data.
 
 ## Planned v0.1 Scope
 
 YT-Companion v0.1 will:
 
-- Authenticate users through Google OAuth
-- Connect one or more authorized YouTube channels
+- Authorize one or more YouTube channels through Google OAuth
 - Read channel and uploaded-video information
 - Read subscriber count, views, watch hours, and available revenue data
 - Store daily snapshots in SQLite
 - Display a responsive dark-mode dashboard
+- Provide a portfolio overview and channel switcher
 - Provide read-only Creator Insights backed by collected data
 
 YT-Companion v0.1 will not edit videos, upload content, change thumbnails, schedule content, or write to YouTube.
-
-## Multi-User Model
-
-YT-Companion is being designed for shared installations. An installation may have multiple application users, and each user may be granted access to one or more creator profiles. Google authorization and channel permissions will be stored separately from application identity.
-
-This allows, for example, two household members to use the same installation without sharing a login or mixing channel permissions.
-
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the initial identity and tenancy model.
 
 ## Technology Direction
 
@@ -84,7 +103,7 @@ Security concerns should be reported according to [SECURITY.md](SECURITY.md).
 
 ## Contributing
 
-The project is in its initial foundation stage. Development practices are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
+Development practices are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
