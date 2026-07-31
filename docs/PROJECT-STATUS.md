@@ -6,11 +6,11 @@ Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 005 — Channel Dashboard Wireframe is complete.
+None. Feature 006 — Videos Screen Wireframe is complete.
 
 ## Status
 
-Repository foundation, creator portfolio model, deployment access model, Portfolio Overview, and Channel Dashboard UX specifications are validated.
+Repository foundation, creator portfolio model, deployment access model, and the first three primary UX screens are validated.
 
 ## Completed
 
@@ -23,7 +23,7 @@ Repository foundation, creator portfolio model, deployment access model, Portfol
 - Creator portfolio and multi-channel model documented
 - Unnecessary v0.1 household user accounts removed from scope
 - Creator cockpit interface direction documented
-- Progressive disclosure requirement documented
+- Progressive disclosure requirement documented: approachable summaries with expandable technical detail
 - Creator Insights evidence requirements documented
 - Reference deployment address selected: `companion.farwellonline.com`
 - Cloudflare Tunnel and Cloudflare Access responsibilities documented
@@ -31,13 +31,9 @@ Repository foundation, creator portfolio model, deployment access model, Portfol
 - LAN-only deployment retained as a supported option
 - Portfolio Overview primary question and one-screen desktop rule documented
 - Row-based priority layout selected for channel scalability
-- Portfolio loading, empty, partial-data, error, mobile, accessibility, and performance expectations defined
-- Grayscale Portfolio Overview wireframe added
-- Channel Dashboard primary question and information hierarchy documented
-- Today at a Glance metric contract and comparison labeling defined
-- Producer, Top Movers, Recent Uploads, compact trends, and collection-health behavior defined
-- Pre-launch, dormant, loading, partial-failure, total-failure, revoked-authorization, and insufficient-history states defined
-- Grayscale Channel Dashboard wireframe added
+- Channel Dashboard metrics, Producer summary, recent uploads, trends, and failure states documented
+- Videos screen priority model, fair-comparison rules, filters, sorting, responsive states, and failure handling documented
+- Grayscale visual wireframes added for Portfolio, Channel Dashboard, and Videos
 
 ## Product Model
 
@@ -61,7 +57,7 @@ Answers:
 
 > **Which channel deserves my attention today?**
 
-Its initial desktop view fits without page-level vertical scrolling and displays prioritized channels, one evidence-linked Producer observation, and collection health.
+Its initial desktop view fits without page-level vertical scrolling and displays up to six prioritized non-archived channels.
 
 ### Channel Dashboard
 
@@ -69,14 +65,20 @@ Answers:
 
 > **What should I know about this channel today?**
 
-Its initial desktop view fits without page-level vertical scrolling and presents channel identity, six core metrics, one primary Producer observation, no more than two Top Movers, three recent uploads, compact historical direction, and collection health.
+It combines core metrics, one primary Producer observation, Top Movers, recent uploads, compact trends, and data-health context.
 
-Every metric comparison names its period. Missing permission or unavailable data is labeled and is never replaced with zero or an estimate.
+### Videos
+
+Answers:
+
+> **Which videos deserve my attention right now?**
+
+Its default view shows up to five priority videos with age-matched or explicitly contextualized comparisons. It does not use unexplained AI scores or compare unlike formats through a shared baseline.
 
 ## Next Feature
 
-Feature 006 will be selected before application implementation begins. No Feature 006 work has begun.
+Feature 007 will be selected before further design or application implementation begins. No Feature 007 work has begun.
 
 ## v0.1 Boundary
 
-v0.1 remains strictly read-only. No upload, edit, thumbnail-change, scheduling, or other YouTube mutation capability is permitted.
+v0.1 remains strictly read-only. No upload, edit, thumbnail-change, scheduling, privacy-state change, or other YouTube mutation capability is permitted.
