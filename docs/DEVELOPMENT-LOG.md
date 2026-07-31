@@ -209,3 +209,69 @@ Updated project status and recorded the completed Channel Dashboard UX contract 
 ### Result
 
 Feature 005 completed. No application code was introduced.
+
+## 2026-07-31 — Feature 006: Videos Screen Wireframe
+
+### Design
+
+Defined the Videos screen around one primary question:
+
+> **Which videos deserve my attention right now?**
+
+Selected compact rows, a five-video priority view, deterministic attention reasons, and direct navigation into the future Video Workspace.
+
+### Explain
+
+The screen defaults to attention priority rather than upload date because its purpose is to help the creator decide where to investigate. It explicitly rejects unexplained AI scores and requires recent videos to be compared at similar ages or against clearly named age-adjusted baselines.
+
+Shorts, livestreams, and standard videos must not share a baseline when their metrics are not meaningfully comparable.
+
+### Implementation
+
+Added:
+
+- `docs/WIREFRAMES/03-Videos.md`
+- `docs/WIREFRAMES/03-Videos.svg`
+
+The specification defines search, filters, sorting, optional columns, video-row content, attention reasons, fair comparison rules, full-directory behavior, responsive layouts, accessibility, performance expectations, failure states, and acceptance criteria.
+
+### Test
+
+Reviewed the visual wireframe and written specification against the 1920×1080 one-screen target and the 1366×768 minimum desktop target.
+
+Verified that five priority rows, controls, supporting comparison text, and collection health fit without page-level desktop scrolling.
+
+### Fix
+
+Removed several misleading or unnecessary concepts during design:
+
+- Rejected a composite AI score because it would hide the calculation and encourage false precision.
+- Required missing analytics to display as unavailable rather than zero.
+- Separated the five-row priority view from the full video directory so large libraries do not break the one-screen rule.
+- Required age-matched comparisons for new uploads so a one-day-old video is not compared unfairly with lifetime totals.
+- Deferred CSV export because it does not help answer the current screen's primary question in v0.1.
+
+### Regression Test
+
+Confirmed that Feature 006 preserves the creator portfolio model, read-only boundary, channel isolation, evidence requirement, one-screen desktop rule, and progressive-disclosure design.
+
+### Validation
+
+Confirmed that:
+
+- The primary question is explicit.
+- Up to five videos can be scanned without clutter.
+- Every attention reason has an evidence path.
+- Recent-video comparisons identify their baseline.
+- Missing data is never guessed.
+- No YouTube write action is present.
+- Empty, loading, partial-failure, revoked-authorization, deleted-video, tablet, and mobile states are defined.
+- Every visible element supports recognition, comparison, navigation, or data trust.
+
+### Documentation
+
+Updated project status and recorded the Videos screen UX contract, comparison rules, edge cases, and validation results.
+
+### Result
+
+Feature 006 completed. No application code was introduced.
