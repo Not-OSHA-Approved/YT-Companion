@@ -4,6 +4,10 @@ A self-hosted creator cockpit for YouTube analytics, historical tracking, and ev
 
 YT-Companion complements YouTube Studio. It is designed to answer: **What should I know today?**
 
+> **YT-Companion is not a clone of YouTube Studio.**
+>
+> It is a creator cockpit designed to help you understand your channels, preserve their history, and make better publishing decisions.
+
 > **Project status:** Foundation and product-model stage. No functional release is available yet.
 
 ## Core Principles
@@ -16,6 +20,8 @@ YT-Companion complements YouTube Studio. It is designed to answer: **What should
 - AI insights must be traceable to collected data
 - Multiple channels must remain independently authorized and analytically isolated
 - The interface must be approachable without hiding meaningful detail
+- Polish, not fluff: every screen element must serve a creator-facing purpose
+- Overview first; details on demand
 
 ## Creator Portfolio
 
