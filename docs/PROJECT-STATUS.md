@@ -2,15 +2,15 @@
 
 ## Current Version
 
-Pre-release foundation stage.
+Pre-release product-definition stage.
 
 ## Active Feature
 
-None. Feature 001 is complete.
+None. Feature 002 — Creator Portfolio Product Model is complete.
 
 ## Status
 
-Repository foundation validated.
+Repository foundation and creator portfolio model validated.
 
 ## Completed
 
@@ -18,14 +18,23 @@ Repository foundation validated.
 - Project mission and safety principles documented
 - MIT license added
 - Contribution and security policies added
-- Initial multi-user and multi-channel architecture documented
 - Secret, token, database, and runtime-data ignore rules added
 - Development workflow established
-- Foundation files validated on the default branch
+- Creator portfolio and multi-channel model documented
+- Unnecessary v0.1 household user accounts removed from scope
+- Creator cockpit interface direction documented
+- Progressive disclosure requirement documented: approachable summaries with expandable technical detail
+- Creator Insights evidence requirements documented
+
+## Product Model
+
+v0.1 targets one trusted self-hosted installation containing one creator portfolio and multiple independently authorized YouTube channels.
+
+Separate application user accounts, roles, and permissions are deferred until a real use case requires them.
 
 ## Next Feature
 
-Feature 002 will be selected before any additional implementation begins. No implementation work for Feature 002 has begun.
+Feature 003 will be selected before application implementation begins. No Feature 003 work has begun.
 
 ## v0.1 Boundary
 
