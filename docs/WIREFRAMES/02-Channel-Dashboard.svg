@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">YT-Companion Channel Dashboard wireframe</title>
+  <desc id="desc">Grayscale desktop wireframe showing channel identity, summary metrics, Producer observation, top movers, recent uploads, trend summary, and collection health.</desc>
+  <rect width="1600" height="900" fill="#f3f3f3"/>
+  <rect x="35" y="25" width="1530" height="850" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+
+  <rect x="35" y="25" width="1530" height="62" rx="8" fill="#222"/>
+  <text x="65" y="64" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#fff">YT-Companion</text>
+  <text x="250" y="64" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Portfolio › Growing Old w/o Growing Old</text>
+  <text x="1250" y="64" font-family="Arial, sans-serif" font-size="16" fill="#ddd">28 days ▾</text>
+  <text x="1370" y="64" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Sync ✓</text>
+  <text x="1470" y="64" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Settings</text>
+
+  <text x="65" y="125" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#222">GROWING OLD W/O GROWING OLD</text>
+  <text x="560" y="125" font-family="Arial, sans-serif" font-size="18" fill="#555">What should I know about this channel today?</text>
+  <text x="65" y="150" font-family="Arial, sans-serif" font-size="15" fill="#555">Healthy · Last upload yesterday</text>
+  <text x="1360" y="150" font-family="Arial, sans-serif" font-size="15" fill="#555">Updated 8m ago</text>
+
+  <text x="65" y="190" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">TODAY AT A GLANCE</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="65" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="82" y="232" font-size="14" fill="#555">Subscribers</text><text x="82" y="270" font-size="27" font-weight="700" fill="#222">3,640</text><text x="82" y="292" font-size="13" fill="#555">+18 vs prior</text>
+    <rect x="310" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="327" y="232" font-size="14" fill="#555">Views</text><text x="327" y="270" font-size="27" font-weight="700" fill="#222">18,420</text><text x="327" y="292" font-size="13" fill="#555">+12% vs prior</text>
+    <rect x="555" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="572" y="232" font-size="14" fill="#555">Watch time</text><text x="572" y="270" font-size="27" font-weight="700" fill="#222">1,284 h</text><text x="572" y="292" font-size="13" fill="#555">+9% vs prior</text>
+    <rect x="800" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="817" y="232" font-size="14" fill="#555">Revenue</text><text x="817" y="270" font-size="27" font-weight="700" fill="#222">$412.38</text><text x="817" y="292" font-size="13" fill="#555">+6% vs prior</text>
+    <rect x="1045" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="1062" y="232" font-size="14" fill="#555">CTR</text><text x="1062" y="270" font-size="27" font-weight="700" fill="#222">6.2%</text><text x="1062" y="292" font-size="13" fill="#555">-0.3pt vs prior</text>
+    <rect x="1290" y="205" width="230" height="100" rx="5" fill="#eee" stroke="#aaa"/>
+    <text x="1307" y="232" font-size="14" fill="#555">Avg duration</text><text x="1307" y="270" font-size="27" font-weight="700" fill="#222">8:14</text><text x="1307" y="292" font-size="13" fill="#555">+0:22 vs prior</text>
+  </g>
+
+  <rect x="65" y="325" width="950" height="190" rx="5" fill="#f7f7f7" stroke="#888"/>
+  <text x="85" y="355" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">PRODUCER NOTICED</text>
+  <text x="85" y="393" font-family="Arial, sans-serif" font-size="18" fill="#222">The newest family video is off to a stronger start than the previous three uploads,</text>
+  <text x="85" y="421" font-family="Arial, sans-serif" font-size="18" fill="#222">driven by higher early watch time rather than higher CTR.</text>
+  <text x="830" y="485" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">Show evidence ›</text>
+
+  <rect x="1035" y="325" width="485" height="190" rx="5" fill="#f7f7f7" stroke="#888"/>
+  <text x="1055" y="355" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">TOP MOVERS</text>
+  <text x="1055" y="390" font-family="Arial, sans-serif" font-size="15" fill="#222">↑ Fastest start</text>
+  <text x="1080" y="416" font-family="Arial, sans-serif" font-size="15" fill="#555">I Will Never Be Too Tired · +31%</text>
+  <text x="1055" y="462" font-family="Arial, sans-serif" font-size="15" fill="#222">↓ Needs attention</text>
+  <text x="1080" y="488" font-family="Arial, sans-serif" font-size="15" fill="#555">Recent shopping upload · CTR -1.1pt</text>
+
+  <rect x="65" y="535" width="950" height="260" rx="5" fill="#fff" stroke="#888"/>
+  <text x="85" y="565" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">RECENT UPLOADS</text>
+  <g font-family="Arial, sans-serif" font-size="14">
+    <rect x="85" y="590" width="110" height="58" fill="#ddd" stroke="#999"/><text x="215" y="620" fill="#222">I Will Never Be Too Tired</text><text x="710" y="620" fill="#555">1d</text><text x="790" y="620" fill="#555">482 views</text><text x="940" y="620" fill="#222">↑</text>
+    <rect x="85" y="660" width="110" height="58" fill="#ddd" stroke="#999"/><text x="215" y="690" fill="#222">Previous Upload</text><text x="710" y="690" fill="#555">5d</text><text x="790" y="690" fill="#555">621 views</text><text x="940" y="690" fill="#222">→</text>
+    <rect x="85" y="730" width="110" height="48" fill="#ddd" stroke="#999"/><text x="215" y="758" fill="#222">Earlier Upload</text><text x="710" y="758" fill="#555">10d</text><text x="790" y="758" fill="#555">903 views</text><text x="940" y="758" fill="#222">↓</text>
+  </g>
+
+  <rect x="1035" y="535" width="485" height="260" rx="5" fill="#fff" stroke="#888"/>
+  <text x="1055" y="565" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">28-DAY TREND</text>
+  <polyline points="1080,640 1140,625 1200,650 1260,600 1320,615 1380,575 1460,590" fill="none" stroke="#333" stroke-width="3"/>
+  <polyline points="1080,700 1140,695 1200,680 1260,685 1320,660 1380,650 1460,635" fill="none" stroke="#777" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="1080" y="625" font-family="Arial, sans-serif" font-size="13" fill="#555">Views</text>
+  <text x="1080" y="690" font-family="Arial, sans-serif" font-size="13" fill="#555">Subscribers</text>
+  <text x="1375" y="765" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#333">Open analytics ›</text>
+
+  <rect x="65" y="815" width="1455" height="38" rx="4" fill="#eee"/>
+  <text x="85" y="840" font-family="Arial, sans-serif" font-size="14" fill="#444">Snapshot healthy · Data through 1:00 PM · Next collection 11:00 PM · Revenue permission ✓</text>
+</svg>
