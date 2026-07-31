@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">YT-Companion Portfolio Overview wireframe</title>
+  <desc id="desc">Grayscale desktop wireframe showing portfolio summary, prioritized channel rows, Producer observation, and snapshot health.</desc>
+  <rect width="1600" height="900" fill="#f4f4f4"/>
+  <rect x="40" y="30" width="1520" height="840" rx="8" fill="#ffffff" stroke="#555" stroke-width="2"/>
+
+  <rect x="40" y="30" width="1520" height="64" rx="8" fill="#222"/>
+  <text x="70" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">YT-Companion</text>
+  <text x="270" y="70" font-family="Arial, sans-serif" font-size="18" fill="#ddd">Portfolio</text>
+  <text x="1260" y="70" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Search</text>
+  <text x="1370" y="70" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Sync ✓</text>
+  <text x="1480" y="70" font-family="Arial, sans-serif" font-size="16" fill="#ddd">Settings</text>
+
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#222">CREATOR PORTFOLIO</text>
+  <text x="420" y="135" font-family="Arial, sans-serif" font-size="18" fill="#555">Which channel deserves your attention today?</text>
+
+  <rect x="70" y="158" width="1460" height="68" rx="5" fill="#eee" stroke="#aaa"/>
+  <text x="95" y="199" font-family="Arial, sans-serif" font-size="17" fill="#222">6 channels</text>
+  <text x="320" y="199" font-family="Arial, sans-serif" font-size="17" fill="#222">3 active</text>
+  <text x="520" y="199" font-family="Arial, sans-serif" font-size="17" fill="#222">4,077 subscribers</text>
+  <text x="835" y="199" font-family="Arial, sans-serif" font-size="17" fill="#222">2 uploads this week</text>
+  <text x="1190" y="199" font-family="Arial, sans-serif" font-size="17" fill="#222">Updated 8m ago</text>
+
+  <text x="90" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">PRIORITY</text>
+  <text x="210" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">CHANNEL</text>
+  <text x="755" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">STATUS</text>
+  <text x="950" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">SUBSCRIBERS</text>
+  <text x="1130" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">LAST UPLOAD</text>
+  <text x="1330" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#555">PRODUCER</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="278" width="1460" height="76" fill="#fafafa" stroke="#ccc"/>
+    <text x="112" y="317" font-size="18" font-weight="700">1</text>
+    <text x="210" y="309" font-size="18" font-weight="700">Growing Old w/o Growing Old</text>
+    <text x="210" y="334" font-size="14" fill="#666">+18 this week</text>
+    <text x="755" y="317" font-size="16">Healthy</text>
+    <text x="990" y="317" font-size="16">3,640</text>
+    <text x="1130" y="317" font-size="16">Yesterday</text>
+    <text x="1330" y="317" font-size="16">Growth  ›</text>
+
+    <rect x="70" y="354" width="1460" height="76" fill="#fff" stroke="#ccc"/>
+    <text x="112" y="393" font-size="18" font-weight="700">2</text>
+    <text x="210" y="385" font-size="18" font-weight="700">Not OSHA Approved!</text>
+    <text x="210" y="410" font-size="14" fill="#666">Fastest-growing small channel</text>
+    <text x="755" y="393" font-size="16">Opportunity</text>
+    <text x="990" y="393" font-size="16">230</text>
+    <text x="1130" y="393" font-size="16">3 weeks ago</text>
+    <text x="1330" y="393" font-size="16">Publish  ›</text>
+
+    <rect x="70" y="430" width="1460" height="76" fill="#fafafa" stroke="#ccc"/>
+    <text x="112" y="469" font-size="18" font-weight="700">3</text>
+    <text x="210" y="461" font-size="18" font-weight="700">Don't Call It Glamping</text>
+    <text x="210" y="486" font-size="14" fill="#666">Connected and ready for its first video</text>
+    <text x="755" y="469" font-size="16">Pre-launch</text>
+    <text x="990" y="469" font-size="16">—</text>
+    <text x="1130" y="469" font-size="16">No uploads</text>
+    <text x="1330" y="469" font-size="16">Ready  ›</text>
+
+    <rect x="70" y="506" width="1460" height="58" fill="#fff" stroke="#ccc"/>
+    <text x="112" y="541" font-size="18" font-weight="700">4</text>
+    <text x="210" y="541" font-size="18" font-weight="700">No BS Batteries</text>
+    <text x="755" y="541" font-size="16">Stable</text>
+    <text x="990" y="541" font-size="16">94</text>
+    <text x="1130" y="541" font-size="16">2 months ago</text>
+    <text x="1330" y="541" font-size="16">Steady  ›</text>
+
+    <rect x="70" y="564" width="1460" height="58" fill="#fafafa" stroke="#ccc"/>
+    <text x="112" y="599" font-size="18" font-weight="700">5</text>
+    <text x="210" y="599" font-size="18" font-weight="700">MrFrickinfrack8</text>
+    <text x="755" y="599" font-size="16">Dormant</text>
+    <text x="990" y="599" font-size="16">103</text>
+    <text x="1130" y="599" font-size="16">4 months ago</text>
+    <text x="1330" y="599" font-size="16">Quiet  ›</text>
+
+    <rect x="70" y="622" width="1460" height="58" fill="#fff" stroke="#ccc"/>
+    <text x="112" y="657" font-size="18" font-weight="700">6</text>
+    <text x="210" y="657" font-size="18" font-weight="700">Gen Xed Out</text>
+    <text x="755" y="657" font-size="16">Dormant</text>
+    <text x="990" y="657" font-size="16">10</text>
+    <text x="1130" y="657" font-size="16">5 months ago</text>
+    <text x="1330" y="657" font-size="16">Quiet  ›</text>
+  </g>
+
+  <rect x="70" y="706" width="1460" height="94" rx="5" fill="#e9e9e9" stroke="#999"/>
+  <text x="95" y="739" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#222">PRODUCER NOTICED</text>
+  <text x="95" y="770" font-family="Arial, sans-serif" font-size="16" fill="#333">Growing Old generated most portfolio growth this week. Not OSHA Approved has the</text>
+  <text x="95" y="793" font-family="Arial, sans-serif" font-size="16" fill="#333">strongest recent subscriber momentum among smaller channels.</text>
+  <text x="1370" y="770" font-family="Arial, sans-serif" font-size="15" fill="#333">View evidence ›</text>
+
+  <line x1="70" y1="824" x2="1530" y2="824" stroke="#aaa"/>
+  <text x="95" y="851" font-family="Arial, sans-serif" font-size="14" fill="#555">Snapshot healthy · Last collection 8 minutes ago · Next scheduled collection 11:00 PM</text>
+</svg>
