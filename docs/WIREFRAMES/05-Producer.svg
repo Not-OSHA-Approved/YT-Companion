@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">YT-Companion Producer wireframe</title>
+  <desc id="desc">Grayscale desktop wireframe showing one primary evidence-backed finding, supporting evidence, secondary findings, a watching item, and system health.</desc>
+  <rect width="1600" height="900" fill="#f3f3f3"/>
+  <rect x="40" y="30" width="1520" height="840" rx="8" fill="#fff" stroke="#555" stroke-width="2"/>
+  <rect x="40" y="30" width="1520" height="64" rx="8" fill="#222"/>
+  <text x="70" y="70" font-family="Arial" font-size="24" font-weight="700" fill="#fff">YT-Companion</text>
+  <text x="270" y="70" font-family="Arial" font-size="17" fill="#ddd">Portfolio › Growing Old w/o Growing Old › Producer</text>
+  <text x="1300" y="70" font-family="Arial" font-size="16" fill="#ddd">90 days</text>
+  <text x="1410" y="70" font-family="Arial" font-size="16" fill="#ddd">Sync ✓</text>
+  <text x="1490" y="70" font-family="Arial" font-size="16" fill="#ddd">⚙</text>
+
+  <text x="70" y="132" font-family="Arial" font-size="20" font-weight="700" fill="#222">PRODUCER</text>
+  <text x="300" y="132" font-family="Arial" font-size="19" fill="#555">What patterns am I missing?</text>
+  <text x="70" y="162" font-family="Arial" font-size="15" fill="#666">3 current findings · 1 new since last visit · Updated 8 minutes ago</text>
+
+  <rect x="70" y="182" width="1460" height="52" rx="5" fill="#eee" stroke="#aaa"/>
+  <text x="95" y="214" font-family="Arial" font-size="15" fill="#333">Current   New   Confirmed   Watching   Dismissed</text>
+  <text x="1220" y="214" font-family="Arial" font-size="15" fill="#333">Topic ▾   Confidence ▾</text>
+
+  <rect x="70" y="254" width="930" height="260" rx="6" fill="#fafafa" stroke="#888"/>
+  <text x="95" y="288" font-family="Arial" font-size="16" font-weight="700" fill="#222">PRIMARY FINDING</text>
+  <text x="95" y="335" font-family="Arial" font-size="22" fill="#222">Family-oriented videos generated 2.8× more comments</text>
+  <text x="95" y="369" font-family="Arial" font-size="22" fill="#222">per 1,000 views than the channel baseline during the</text>
+  <text x="95" y="403" font-family="Arial" font-size="22" fill="#222">last 30 days.</text>
+  <text x="95" y="454" font-family="Arial" font-size="16" fill="#555">Confidence: High · Scope: 20 videos</text>
+  <text x="690" y="486" font-family="Arial" font-size="16" font-weight="700" fill="#333">Open evidence ›   Open videos ›</text>
+
+  <rect x="1020" y="254" width="510" height="260" rx="6" fill="#eee" stroke="#888"/>
+  <text x="1045" y="288" font-family="Arial" font-size="16" font-weight="700" fill="#222">EVIDENCE SUMMARY</text>
+  <text x="1045" y="330" font-family="Arial" font-size="17" fill="#333">Compared: 6 family videos vs 14 others</text>
+  <text x="1045" y="367" font-family="Arial" font-size="17" fill="#333">Metric: comments per 1,000 views</text>
+  <text x="1045" y="404" font-family="Arial" font-size="17" fill="#333">Difference: +180%</text>
+  <text x="1045" y="441" font-family="Arial" font-size="17" fill="#333">Limitation: small sample</text>
+  <text x="1045" y="483" font-family="Arial" font-size="16" font-weight="700" fill="#333">Calculation details ›</text>
+
+  <rect x="70" y="534" width="930" height="232" rx="6" fill="#fafafa" stroke="#aaa"/>
+  <text x="95" y="568" font-family="Arial" font-size="16" font-weight="700" fill="#222">OTHER FINDINGS</text>
+  <text x="95" y="616" font-family="Arial" font-size="18" fill="#222">1. Curiosity titles averaged 14% higher CTR over 90 days.</text>
+  <text x="120" y="647" font-family="Arial" font-size="15" fill="#666">Moderate confidence · 12 matched videos</text>
+  <text x="820" y="647" font-family="Arial" font-size="15" font-weight="700" fill="#333">Evidence ›</text>
+  <line x1="95" y1="670" x2="975" y2="670" stroke="#ccc"/>
+  <text x="95" y="711" font-family="Arial" font-size="18" fill="#222">2. Average view duration increased while CTR remained stable.</text>
+  <text x="120" y="742" font-family="Arial" font-size="15" fill="#666">High confidence</text>
+  <text x="820" y="742" font-family="Arial" font-size="15" font-weight="700" fill="#333">Evidence ›</text>
+
+  <rect x="1020" y="534" width="510" height="232" rx="6" fill="#eee" stroke="#aaa"/>
+  <text x="1045" y="568" font-family="Arial" font-size="16" font-weight="700" fill="#222">WATCHING</text>
+  <text x="1045" y="613" font-family="Arial" font-size="17" fill="#333">Friday uploads may be outperforming Monday,</text>
+  <text x="1045" y="646" font-family="Arial" font-size="17" fill="#333">but only four comparable pairs exist.</text>
+  <text x="1045" y="694" font-family="Arial" font-size="16" fill="#666">More data required before publication.</text>
+
+  <line x1="70" y1="790" x2="1530" y2="790" stroke="#888"/>
+  <text x="70" y="822" font-family="Arial" font-size="15" fill="#555">History: 27 findings · 6 confirmed · 3 superseded · 2 dismissed</text>
+  <text x="1220" y="822" font-family="Arial" font-size="15" font-weight="700" fill="#333">Open history ›</text>
+  <text x="70" y="851" font-family="Arial" font-size="14" fill="#666">Evidence Engine healthy · Optional language provider: Local Ollama (available)</text>
+</svg>
